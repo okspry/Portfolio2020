@@ -28,11 +28,17 @@ body {
   padding: 0;
   margin: 0;
 }
-.grid {
-  padding: 2rem;
-}
 .main {
   font-family: var(--text-font-fam);
+  padding: 2rem;
+}
+header {
+  position: relative;
+  background: var(--white);
+  padding: 2rem 2rem 1rem 2rem;
+  -webkit-transform-origin-x: 0.5;
+  transform-origin: 0.5;
+  z-index: 1000;
 }
 header,
 h1,
@@ -92,12 +98,19 @@ figcaption {
   color: var(--sub-text-color);
 }
 footer {
+  position: relative;
+  padding: 2rem;
   font-family: var(--text-font-fam);
   font-weight: 600;
+  margin-top: 40px;
   color: var(--sub-text-color);
+  z-index: 1;
 }
-.main > div,
-footer {
+.main {
+  position: relative;
+  z-index: 1;
+}
+.main > div {
   margin-top: 40px;
 }
 .main .section.col:nth-child(2) {
@@ -120,10 +133,12 @@ footer {
   h3,
   h4 {
     font-family: var(--heading-font-fam);
-    text-align: left;
   }
-  .grid {
-    padding: 4rem;
+  footer {
+    padding: 0 4rem;
+  }
+  .main {
+    padding: 0 4rem;
   }
   .main .section {
     display: grid;

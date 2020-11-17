@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "framer-motion": "2.9.4",
     "normalize-css": "2.3.1",
     "react": "17.0.0",
     "react-dom": "17.0.0",

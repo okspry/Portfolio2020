@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 import "./styles.css";
 
@@ -26,7 +26,6 @@ const transition = {
 };
 
 export default function App() {
-  const ref = useRef();
   const { scrollY } = useViewportScroll();
 
   const y = useTransform(scrollY, [0, 20], [1, 0.6]);
@@ -35,7 +34,7 @@ export default function App() {
   });
 
   return (
-    <motion.div className="App grid" ref={ref}>
+    <motion.div className="App grid">
       <motion.div
         style={{
           height: 1,

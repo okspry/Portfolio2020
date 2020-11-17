@@ -21,7 +21,7 @@
 }
 body {
   background-color: var(--background-color);
-  padding-bottom: 100px;
+  padding-bottom: 10rem;
 }
 * {
   box-sizing: border-box;
@@ -29,15 +29,21 @@ body {
   margin: 0;
 }
 .main {
+  position: relative;
+  top: 140px;
   font-family: var(--text-font-fam);
   padding: 2rem;
 }
 header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 4rem;
   background: var(--white);
-  padding: 2rem 2rem 1rem 2rem;
   -webkit-transform-origin-x: 0.5;
   transform-origin: 0.5;
+  box-shadow: 0 2px 5px var(--medium-pink);
   z-index: 1000;
 }
 header,
@@ -99,10 +105,12 @@ figcaption {
 }
 footer {
   position: relative;
-  padding: 2rem;
+  top: 140px;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding-left: 2rem;
   font-family: var(--text-font-fam);
   font-weight: 600;
-  margin-top: 40px;
   color: var(--sub-text-color);
   z-index: 1;
 }
@@ -128,7 +136,7 @@ footer {
 
 @media (min-width: 700px) {
   body {
-    padding: 0 8% 100px;
+    padding: 0 8% 6rem;
   }
   header,
   h1,
@@ -139,7 +147,7 @@ footer {
     text-align: left;
   }
   header {
-    padding-left: 4rem;
+    padding: 1rem calc(8% + 4rem);
   }
   header > div {
     -webkit-transform-origin-x: 0;
@@ -186,7 +194,7 @@ footer {
     text-align: left;
   }
   header {
-    padding-left: 4rem;
+    padding: 1rem calc(20% + 4rem);
   }
   header > div {
     -webkit-transform-origin-x: 0;

@@ -28,8 +28,8 @@ const transition = {
 export default function App() {
   const { scrollY } = useViewportScroll();
 
-  const y = useTransform(scrollY, [0, 20], [1, 0.6]);
-  const bgHeight = useTransform(scrollY, [0, 900], [0, 1900], {
+  const y = useTransform(scrollY, [0, 40], [1, 0.6]);
+  const bgHeight = useTransform(scrollY, [0, 900], [0, 2300], {
     clamp: false
   });
 

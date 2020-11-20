@@ -40,15 +40,15 @@ export default function App() {
             <motion.h1 style={style} animate={animate} transition={transition}>
               Ken Spry
             </motion.h1>
-            <h4 className="muted-text">Interaction Designer</h4>
+            <h4 className="muted-text">Interaction and Product Designer</h4>
           </motion.div>
         </motion.header>
         <div className="main main-text">
           <div className="stacked">
             <div>
               <h4>
-                I have been designing for a decade, with a focus on mission- and
-                life-critical applications.
+                I have been designing for a decade, with a focus on prototyping
+                for mission- and life-critical applications.
               </h4>
               <p>
                 Over the past three years, I have operated under a strict NDA. I

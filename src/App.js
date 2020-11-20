@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 import "./styles.css";
-import storyboard from "../assets/preemptive-alerts-storyboard.png";
-import mockup1 from "../assets/alert-fatigue-mockup-1.png";
+import storyboard from "./assets/preemptive-alerts-storyboard.png";
+import mockup1 from "./assets/alert-fatigue-mockup-1.png";
 
 const brightPink = "#fa255e";
 const lightPink = "#f8e5e5";

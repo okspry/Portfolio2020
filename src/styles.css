@@ -2,10 +2,10 @@
 :root {
   font-size: 16px;
   --white: #fff;
-  --light-pink: #f8e5e5;
-  --medium-pink: #a88586;
-  --bright-pink: #fa255e;
-  --black: rgb(80, 48, 48);
+  --light-pink: #faf1f1;
+  --medium-pink: #c9787b;
+  --bright-pink: #e42c5d;
+  --black: rgb(78, 34, 34);
   --h1: 3.052rem;
   --h2: 2.441rem;
   --h3: 1.953rem;
@@ -15,13 +15,14 @@
   --main-text-color: var(--black);
   --heading-text-color: var(--bright-pink);
   --sub-text-color: var(--medium-pink);
-  --background-color: var(--white);
+  --background-color: var(--light-pink);
   --heading-font-fam: "Oswald", sans-serif;
   --text-font-fam: "Source Sans Pro", sans-serif;
 }
 body {
   background-color: var(--background-color);
   padding-bottom: 10rem;
+  font-size: 1rem;
 }
 * {
   box-sizing: border-box;
@@ -96,7 +97,11 @@ figure div {
 iframe {
   position: absolute;
   width: 100%;
-  height: 245px;
+  height: 100%;
+  border: 1px solid var(--bright-pink);
+}
+img {
+  border: 1px solid var(--bright-pink);
 }
 figcaption {
   font-size: var(--sub);
@@ -113,6 +118,11 @@ footer {
   font-weight: 600;
   color: var(--sub-text-color);
   z-index: 1;
+}
+hr {
+  margin: 6rem;
+  border: 1px solid var(--bright-pink);
+  opacity: 0.3;
 }
 .main {
   position: relative;

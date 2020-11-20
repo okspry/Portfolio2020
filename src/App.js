@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 import "./styles.css";
+import storyboard from "../assets/preemptive-alerts-storyboard.png";
+import mockup1 from "../assets/alert-fatigue-mockup-1.png";
 
 const brightPink = "#fa255e";
 const lightPink = "#f8e5e5";
@@ -29,20 +31,9 @@ export default function App() {
   const { scrollY } = useViewportScroll();
 
   const y = useTransform(scrollY, [0, 40], [1, 0.6]);
-  const bgHeight = useTransform(scrollY, [0, 900], [0, 2300], {
-    clamp: false
-  });
 
   return (
     <motion.div className="App grid">
-      <motion.div
-        style={{
-          height: 1,
-          y: 100,
-          background: lightPink,
-          scaleY: bgHeight
-        }}
-      />
       <motion.div style={{ y: 0, x: 0 }}>
         <motion.header>
           <motion.div style={{ scale: y }}>
@@ -82,6 +73,7 @@ export default function App() {
               </p>
             </div>
           </div>
+          <hr />
           <div className="stacked">
             <h4>
               Programming lets designers reach into the future, plan for the
@@ -105,6 +97,7 @@ export default function App() {
               </figcaption>
             </figure>
           </div>
+          <hr />
           <div className="section col">
             <div>
               <figure>
@@ -132,6 +125,7 @@ export default function App() {
               </p>
             </div>
           </div>
+          <hr />
           <div>
             <h4>
               The designer’s job is to save money. I make that my business. Cut
@@ -139,6 +133,7 @@ export default function App() {
               actually works.
             </h4>
           </div>
+          <hr />
           <div className="section col">
             <div>
               <figure>
@@ -164,6 +159,74 @@ export default function App() {
               </p>
             </div>
           </div>
+          <hr />
+          <div>
+            <h4>Combating Alert Fatigue</h4>
+          </div>
+          <div className="section col">
+            <div>
+              <figure>
+                <img
+                  title="Alert Fatigue"
+                  width="100%"
+                  alt="alert fatigue"
+                  src={storyboard}
+                ></img>
+                <figcaption>Alert Fatigue</figcaption>
+              </figure>
+            </div>
+            <div>
+              <p>
+                When drugs ordered conflict with a patient's allergies or
+                current drugs, alerts are triggered to warn providers of
+                potentially adverse effects. Unfortunately for providers, many
+                alerts are irrelevant, but even the ones that are relevant are
+                so disruptive to workflow that they too add to providers'
+                frustrations, so much so that alerts are often regarded as a
+                nuissance. It's such a problem, we've created a name for it:
+                alert fatigue. My approach to mitigating alert fatigue is to
+                make alerts in order entry systems behave more like the alerts
+                we see every day. Which is best, an alert that tells you a
+                surface is hot 1) after you touch it, 2) when your hand is less
+                than five inches from the hot surface, or 3) from up to two
+                yards away? We can agree that the closer we are to the action,
+                the harder it is to make corrections. The intensity of the alert
+                must rise as we close the distance to the action. That is, we
+                need a loud buzzer for less than five inches away, and a pulsing
+                light from two yards away. We can also agree that loud buzzers
+                are more annoying than pulsing lights. Friendly alerts are
+                preemptive alerts.
+              </p>
+            </div>
+          </div>
+          <div>
+            <figure>
+              <img
+                title="Preemptive Alert Mockup"
+                width="100%"
+                alt="preemptive alert mockup"
+                src={mockup1}
+              ></img>
+              <figcaption>Preemptive Alert Mockup</figcaption>
+            </figure>
+          </div>
+          <div>
+            <div>
+              <p>
+                By presenting alerts earlier in the process of ordering, we
+                allow providers easier access to backing out and selecting
+                something else. We also warn them that selecting this medication
+                will trigger the GUI equivalent of a loud buzzer. By knowing
+                which drugs will cause buzzers and by allowing easier access to
+                alternate paths, alert fatigue can be mitigated on two fronts.
+                Caching the results on patient select means we don't compromise
+                performace at drug lookup. With preemptive alerts, we can save
+                clicks, mistakes, and slips, all while making providers a little
+                less frustrated with the system.
+              </p>
+            </div>
+          </div>
+          <hr />
           <div>
             <h4>
               Collaboration tools, drawing UI, medicine, research tools,

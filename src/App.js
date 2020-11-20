@@ -93,7 +93,8 @@ export default function App() {
               </div>
               <figcaption>
                 An experiment for my students to create and improve upon whose
-                purpose is to demonstrate the finer points of IxD.
+                purpose is to demonstrate the finer points of IxD. Move around
+                the white knob.
               </figcaption>
             </figure>
           </div>

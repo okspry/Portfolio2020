@@ -154,9 +154,23 @@ export default function App() {
                 care providers a way to discover points of interest right away
                 for their patients, then allow them to dig deeper using search
                 or by selecting rows or columns of data points to cluster in the
-                detail view. I used D3 for this project. My partners wired it up
-                using available deidentified patient data for the FHIR-athon at
-                Eskenazi Health.
+                detail view.
+              </p>
+              <p>
+                By presenting more information up front, we can make it easier
+                for providers to discover
+              </p>
+              <ul>
+                <li>trends,</li>
+                <li>transitions of care, and</li>
+                <li>medications prescribed.</li>
+              </ul>
+              <p>
+                What's more, users have the ability to drill down horizontally
+                or vertically to view data based on category or time,
+                respectively. This can lead to less time spent figuring out what
+                has happened to the patient since the last visit, and can lead
+                to more productive conversations about care.
               </p>
             </div>
           </div>

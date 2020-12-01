@@ -154,7 +154,9 @@ export default function App() {
                 care providers a way to discover points of interest right away
                 for their patients, then allow them to dig deeper using search
                 or by selecting rows or columns of data points to cluster in the
-                detail view.
+                detail view. A big problem for providers is a lack of time for
+                reviewing a patient's records prior to being seen, especially if
+                the patient has gone through transitions of care.
               </p>
               <p>
                 By presenting more information up front, we can make it easier
@@ -196,10 +198,10 @@ export default function App() {
                 current drugs, alerts are triggered to warn providers of
                 potentially adverse effects. Unfortunately for providers, many
                 alerts are irrelevant, but even the ones that are relevant are
-                so disruptive to workflow that they too add to providers'
+                so disruptive to workflow that they, too, add to providers'
                 frustrations, so much so that alerts are often regarded as a
                 nuissance. It's such a problem, we've created a name for it:
-                alert fatigue. My approach to mitigating alert fatigue is to
+                alert fatigue. Our approach to mitigating alert fatigue is to
                 make alerts in order entry systems behave more like the alerts
                 we see every day. Which is best, an alert that tells you a
                 surface is hot 1) after you touch it, 2) when your hand is less
@@ -234,10 +236,11 @@ export default function App() {
                 will trigger the GUI equivalent of a loud buzzer. By knowing
                 which drugs will cause buzzers and by allowing easier access to
                 alternate paths, alert fatigue can be mitigated on two fronts.
-                Caching the results on patient select means we don't compromise
+                By caching the results on patient select, we don't compromise
                 performace at drug lookup. With preemptive alerts, we can save
                 clicks, mistakes, and slips, all while making providers a little
-                less frustrated with the system.
+                less frustrated with the system, in turn making order entry
+                safer for patients.
               </p>
             </div>
           </div>

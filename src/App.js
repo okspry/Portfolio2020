@@ -62,11 +62,11 @@ export default function App() {
               </p>
               <p>
                 Other important work was for their homegrown design system. We
-                were able to create a library of coded, interactive components
-                that mirrored what users would see in the final application.
-                Using Framer, we were able to plug these components into various
-                prototypes with simple drag-and-drop functionality. Our
-                prototypes and documented components reduced guesswork and
+                were able to create a library of theme-able, coded, interactive
+                components that mirrored what users would see in the final
+                application. Using Framer, we were able to plug these components
+                into various prototypes with simple drag-and-drop functionality.
+                Our prototypes and documented components reduced guesswork and
                 boomerangs between design and development, saved us time
                 prototyping, and ensured that we were investing our time in the
                 places it mattered most.

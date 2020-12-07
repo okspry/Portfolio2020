@@ -7,22 +7,22 @@ import mockup1 from "./assets/alert-fatigue-mockup-1.png";
 // const brightPink = "#fa255e";
 // const lightPink = "#f8e5e5";
 // const mediumPink = "#a88586";
-const russianViolet = "hsl(300, 51%, 20%)";
-const russianVioletDark = "hsl(287, 39%, 20%)";
-const darkPurple = "hsla(266, 33%, 20%)";
-const spaceCadet = "hsla(242, 25%, 20%)";
-const prussianBlue = "hsla(217, 35%, 20%)";
-const charcoal = "hsla(201, 47%, 20%)";
-const midnightGreenDark = "hsla(193, 61%, 20%)";
-const midnightGreenMedium = "hsla(187, 78%, 20%)";
-const midnightGreenLight = "hsla(184, 88%, 20%)";
-const skobeloff = "hsla(181, 100%, 20%)";
+// const russianViolet = "hsl(300, 51%, 20%)";
+// const russianVioletDark = "hsl(287, 39%, 20%)";
+// const darkPurple = "hsla(266, 33%, 20%)";
+// const spaceCadet = "hsla(242, 25%, 20%)";
+// const prussianBlue = "hsla(217, 35%, 20%)";
+// const charcoal = "hsla(201, 47%, 20%)";
+// const midnightGreenDark = "hsla(193, 61%, 20%)";
+// const midnightGreenMedium = "hsla(187, 78%, 20%)";
+// const midnightGreenLight = "hsla(184, 88%, 20%)";
+// const skobeloff = "hsla(181, 100%, 20%)";
 
-const style = {
-  WebkitBackgroundClip: "text",
-  WebkitTextFillColor: "transparent",
-  backgroundImage: `linear-gradient(to right, ${russianViolet}, ${russianVioletDark}, ${russianVioletDark}, ${spaceCadet},  ${spaceCadet}, ${prussianBlue}, ${prussianBlue}, ${charcoal}, ${midnightGreenDark})`
-};
+// const style = {
+//   WebkitBackgroundClip: "text",
+//   WebkitTextFillColor: "transparent",
+//   backgroundImage: `linear-gradient(to right, ${russianViolet}, ${russianVioletDark}, ${russianVioletDark}, ${spaceCadet},  ${spaceCadet}, ${prussianBlue}, ${prussianBlue}, ${charcoal}, ${midnightGreenDark})`
+// };
 // const animate = {
 //   backgroundImage: [
 //     `linear-gradient(to right, ${russianVioletDark}, ${spaceCadet}, ${midnightGreenDark})`,

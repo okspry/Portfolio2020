@@ -4,74 +4,90 @@ import "./styles.css";
 import storyboard from "./assets/preemptive-alerts-storyboard.png";
 import mockup1 from "./assets/alert-fatigue-mockup-1.png";
 
-const brightPink = "#fa255e";
-const lightPink = "#f8e5e5";
-const mediumPink = "#a88586";
+// const brightPink = "#fa255e";
+// const lightPink = "#f8e5e5";
+// const mediumPink = "#a88586";
+const russianViolet = "hsl(300, 51%, 20%)";
+const russianVioletDark = "hsl(287, 39%, 20%)";
+const darkPurple = "hsla(266, 33%, 20%)";
+const spaceCadet = "hsla(242, 25%, 20%)";
+const prussianBlue = "hsla(217, 35%, 20%)";
+const charcoal = "hsla(201, 47%, 20%)";
+const midnightGreenDark = "hsla(193, 61%, 20%)";
+const midnightGreenMedium = "hsla(187, 78%, 20%)";
+const midnightGreenLight = "hsla(184, 88%, 20%)";
+const skobeloff = "hsla(181, 100%, 20%)";
 
 const style = {
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
-  backgroundImage: `linear-gradient(to right, ${brightPink}, ${lightPink}, ${mediumPink})`
+  backgroundImage: `linear-gradient(to right, ${russianViolet}, ${russianVioletDark}, ${russianVioletDark}, ${spaceCadet},  ${spaceCadet}, ${prussianBlue}, ${prussianBlue}, ${charcoal}, ${midnightGreenDark})`
 };
-const animate = {
-  backgroundImage: [
-    `linear-gradient(to right, ${brightPink}, ${lightPink}, ${mediumPink})`,
-    `linear-gradient(to right, ${lightPink}, ${mediumPink}, ${brightPink})`,
-    `linear-gradient(to right, ${mediumPink}, ${brightPink}, ${lightPink})`,
-    `linear-gradient(to right, ${brightPink}, ${lightPink}, ${mediumPink})`
-  ]
-};
-const transition = {
-  repeat: Infinity,
-  ease: "linear",
-  duration: 8
-};
+// const animate = {
+//   backgroundImage: [
+//     `linear-gradient(to right, ${russianVioletDark}, ${spaceCadet}, ${midnightGreenDark})`,
+//     `linear-gradient(to right, ${midnightGreenDark}, ${russianVioletDark}, ${spaceCadet})`,
+//     `linear-gradient(to right, ${spaceCadet}, ${midnightGreenDark}, ${russianVioletDark})`,
+//     `linear-gradient(to right, ${russianVioletDark}, ${spaceCadet}, ${midnightGreenDark})`
+//   ]
+// };
+// const transition = {
+//   repeat: Infinity,
+//   ease: "linear",
+//   duration: 8
+// };
 
 export default function App() {
   const { scrollY } = useViewportScroll();
 
   const y = useTransform(scrollY, [0, 40], [1, 0.6]);
+  // const h = useTransform(scrollY, [0, 40], [130, 110]);
+  const hY = useTransform(scrollY, [0, 40], [0, -30]);
 
   return (
     <motion.div className="App grid">
       <motion.div style={{ y: 0, x: 0 }}>
-        <motion.header>
+        <motion.header style={{ y: hY }}>
           <motion.div style={{ scale: y }}>
-            <motion.h1 style={style} animate={animate} transition={transition}>
-              Ken Spry
-            </motion.h1>
-            <h4 className="muted-text">Interaction and Product Designer</h4>
+            <motion.h1>Ken Spry</motion.h1>
+            <h4 className="muted-text">
+              Digital Product Designer and Educator
+            </h4>
           </motion.div>
         </motion.header>
         <div className="main main-text">
           <div className="stacked">
-            <div>
-              <h4>
-                I have been designing for a decade, with a focus on prototyping
-                for mission- and life-critical applications.
-              </h4>
-              <p>
-                Over the past three years, I have operated under a strict NDA. I
-                have worked on patient-facing mobile medical applications at Eli
-                Lilly and Company for a hybrid closed-loop automated insulin
-                delivery system, a migraine tracking application, and various
-                other applications. A design patent is in the works for a novel
-                interaction for logging and viewing information that allowed
-                users to complete tasks faster and more effectively than with
-                other systems.
-              </p>
-              <p>
-                Other important work was for their homegrown design system. We
-                were able to create a library of theme-able, coded, interactive
-                components that mirrored what users would see in the final
-                application. Using Framer, we were able to plug these components
-                into various prototypes with simple drag-and-drop functionality.
-                Our prototypes and documented components reduced guesswork and
-                boomerangs between design and development, saved us time
-                prototyping, and ensured that we were investing our time in the
-                places it mattered most.
-              </p>
-            </div>
+            <h4>
+              I have been designing for a decade, with a focus on prototyping
+              for mission- and life-critical applications.
+            </h4>
+            <p>
+              My experience includes collaboration tools, drawing UI, medicine,
+              research tools, interactive data visualization and information
+              dashboards, alert fatigue, wall-sized touch screens, and mobile
+              and connected devices.
+            </p>
+            <p>
+              Over the past three-and-a-half years, I have operated under a
+              strict NDA. I have worked on patient-facing mobile medical
+              applications at Eli Lilly and Company for a hybrid closed-loop
+              automated insulin delivery system, a migraine tracking
+              application, and various other applications. A design patent is in
+              the works for a novel interaction for logging and viewing
+              information that allowed users to complete tasks faster and more
+              effectively than with other systems.
+            </p>
+            <p>
+              Other important work was for their homegrown design system. We
+              were able to create a library of theme-able, coded, interactive
+              components that mirrored what users would see in the final
+              application. Using Framer, we were able to plug these components
+              into various prototypes with simple drag-and-drop functionality.
+              Our prototypes and documented components reduced guesswork and
+              boomerangs between design and development, saved us time
+              prototyping, and ensured that we were investing our time in the
+              places where it mattered most.
+            </p>
           </div>
           <hr />
           <div className="stacked">
@@ -121,7 +137,7 @@ export default function App() {
                 across numerous devices. Ultimately, we needed to enable their
                 users to independently inspect items at different resolutions
                 without destroying the meaning created by the layout on the
-                canvas. My solution ended up mitigating this issue along with
+                canvas. This solution ended up mitigating this issue along with
                 several others.
               </p>
             </div>
@@ -243,14 +259,6 @@ export default function App() {
                 safer for patients.
               </p>
             </div>
-          </div>
-          <hr />
-          <div>
-            <h4>
-              Collaboration tools, drawing UI, medicine, research tools,
-              interactive data visualization, alert fatigue, wall-sized touch
-              screens, and mobile and connected devices
-            </h4>
           </div>
         </div>
         <footer>

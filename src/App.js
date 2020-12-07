@@ -7,22 +7,22 @@ import mockup1 from "./assets/alert-fatigue-mockup-1.png";
 // const brightPink = "#fa255e";
 // const lightPink = "#f8e5e5";
 // const mediumPink = "#a88586";
-// const russianViolet = "hsl(300, 51%, 20%)";
-// const russianVioletDark = "hsl(287, 39%, 20%)";
-// const darkPurple = "hsla(266, 33%, 20%)";
-// const spaceCadet = "hsla(242, 25%, 20%)";
-// const prussianBlue = "hsla(217, 35%, 20%)";
-// const charcoal = "hsla(201, 47%, 20%)";
-// const midnightGreenDark = "hsla(193, 61%, 20%)";
-// const midnightGreenMedium = "hsla(187, 78%, 20%)";
-// const midnightGreenLight = "hsla(184, 88%, 20%)";
-// const skobeloff = "hsla(181, 100%, 20%)";
+const russianViolet = "hsl(300, 51%, 20%)";
+const russianVioletDark = "hsl(287, 39%, 20%)";
+const darkPurple = "hsla(266, 33%, 20%)";
+const spaceCadet = "hsla(242, 25%, 20%)";
+const prussianBlue = "hsla(217, 35%, 20%)";
+const charcoal = "hsla(201, 47%, 20%)";
+const midnightGreenDark = "hsla(193, 61%, 20%)";
+const midnightGreenMedium = "hsla(187, 78%, 20%)";
+const midnightGreenLight = "hsla(184, 88%, 20%)";
+const skobeloff = "hsla(181, 100%, 20%)";
 
-// const style = {
-//   WebkitBackgroundClip: "text",
-//   WebkitTextFillColor: "transparent",
-//   backgroundImage: `linear-gradient(to right, ${russianViolet}, ${russianVioletDark}, ${russianVioletDark}, ${spaceCadet},  ${spaceCadet}, ${prussianBlue}, ${prussianBlue}, ${charcoal}, ${midnightGreenDark})`
-// };
+const style = {
+  WebkitBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  backgroundImage: `linear-gradient(to right, ${russianViolet}, ${russianVioletDark}, ${russianVioletDark}, ${spaceCadet},  ${spaceCadet}, ${prussianBlue}, ${prussianBlue}, ${charcoal}, ${midnightGreenDark})`
+};
 // const animate = {
 //   backgroundImage: [
 //     `linear-gradient(to right, ${russianVioletDark}, ${spaceCadet}, ${midnightGreenDark})`,
@@ -116,61 +116,30 @@ export default function App() {
           </div>
           <hr />
           <div className="section col">
-            <div className="pager">
-              <div className="page">
-                <div>
-                  <figure>
-                    <iframe
-                      title="Prysm Video"
-                      src="https://www.youtube.com/embed/ziiDf51liJc"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                    <figcaption>Zoom vs. Scale</figcaption>
-                  </figure>
-                </div>
-                <div>
-                  <p>
-                    My work at Prysm, Inc., demonstrates how I approach problem
-                    solving and communicating complex ideas in the IxD space.
-                    Prysm were experiencing numerous usability problems as they
-                    moved from a single room collaboration experience to a
-                    distributed model across numerous devices. Ultimately, we
-                    needed to enable their users to independently inspect items
-                    at different resolutions without destroying the meaning
-                    created by the layout on the canvas. This solution ended up
-                    mitigating this issue along with several others.
-                  </p>
-                </div>
-              </div>
-              <div className="page">
-                <div>
-                  <figure>
-                    <iframe
-                      title="Prysm Video"
-                      src="https://www.youtube.com/embed/ziiDf51liJc"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                    <figcaption>Zoom vs. Scale</figcaption>
-                  </figure>
-                </div>
-                <div>
-                  <p>
-                    My work at Prysm, Inc., demonstrates how I approach problem
-                    solving and communicating complex ideas in the IxD space.
-                    Prysm were experiencing numerous usability problems as they
-                    moved from a single room collaboration experience to a
-                    distributed model across numerous devices. Ultimately, we
-                    needed to enable their users to independently inspect items
-                    at different resolutions without destroying the meaning
-                    created by the layout on the canvas. This solution ended up
-                    mitigating this issue along with several others.
-                  </p>
-                </div>
-              </div>
+            <div>
+              <figure>
+                <iframe
+                  title="Prysm Video"
+                  src="https://www.youtube.com/embed/ziiDf51liJc"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <figcaption>Zoom vs. Scale</figcaption>
+              </figure>
+            </div>
+            <div>
+              <p>
+                My work at Prysm, Inc., demonstrates how I approach problem
+                solving and communicating complex ideas in the IxD space. Prysm
+                were experiencing numerous usability problems as they moved from
+                a single room collaboration experience to a distributed model
+                across numerous devices. Ultimately, we needed to enable their
+                users to independently inspect items at different resolutions
+                without destroying the meaning created by the layout on the
+                canvas. This solution ended up mitigating this issue along with
+                several others.
+              </p>
             </div>
           </div>
           <hr />

@@ -264,7 +264,7 @@ export default function App() {
         <footer>
           <div>Ken Spry</div>
           <div>Indianapolis, IN</div>
-          <div>kenneth.spry1@gmail.com</div>
+          <div>For loads more, contact me at kenneth.spry1@gmail.com</div>
         </footer>
         {/* <div className="test">Test</div> */}
       </motion.div>

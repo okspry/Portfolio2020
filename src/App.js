@@ -62,10 +62,11 @@ export default function App() {
               for mission- and life-critical applications.
             </h4>
             <p>
-              My experience includes collaboration tools, drawing UI, medicine,
-              research tools, interactive data visualization and information
-              dashboards, alert fatigue, wall-sized touch screens, and mobile
-              and connected devices.
+              My experience includes collaboration tools, Web and desktop
+              applications, drawing UI, form entry, onboarding experiences,
+              medicine, research tools, interactive data visualization and
+              information dashboards, alert fatigue, wall-sized touch screens,
+              and mobile and connected devices.
             </p>
             <p>
               Over the past three-and-a-half years, I have operated under a

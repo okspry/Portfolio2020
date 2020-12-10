@@ -115,7 +115,7 @@ export default function App() {
               </figcaption>
             </figure>
             <br style={{ height: "50px" }} />
-            <figure>
+            <figure id="iPadOS">
               <div>
                 <iframe
                   title="iPad OS pointer"

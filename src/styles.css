@@ -189,6 +189,12 @@ hr {
   color: var(--russianViolet);
 }
 
+@media (hover: none) {
+  #iPadOS {
+    display: none;
+  }
+}
+
 @media (min-width: 850px) {
   body {
     padding: 0 8% 6rem;

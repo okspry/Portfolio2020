@@ -114,6 +114,21 @@ export default function App() {
                 the white knob.
               </figcaption>
             </figure>
+            <br style={{ height: "50px" }} />
+            <figure>
+              <div>
+                <iframe
+                  title="iPad OS pointer"
+                  src="https://vigilant-kepler-088368.netlify.app/"
+                  frameBorder="0"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <figcaption>
+                Or maybe you're curious about the iPad OS Pointer or some new
+                kind of interaction... (a somewhat crude implementation for now)
+              </figcaption>
+            </figure>
           </div>
           <hr />
           <div className="section col">

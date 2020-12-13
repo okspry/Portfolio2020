@@ -302,6 +302,7 @@ export default function App() {
               <div>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.dropbox.com/s/bht5x7ov42jl0v1/Med%20Rec%20Paper.pdf?dl=0"
                 >
                   Medication Reconciliation
@@ -313,7 +314,11 @@ export default function App() {
               </div>
               <br />
               <div>
-                <a target="_blank" href="https://youtu.be/6rN327W7nKc">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://youtu.be/6rN327W7nKc"
+                >
                   Presentation Compiler
                 </a>{" "}
                 - How to organize assets for presentation in a dynamic,
@@ -321,7 +326,11 @@ export default function App() {
               </div>
               <br />
               <div>
-                <a target="_blank" href="https://youtu.be/Pa48svUn1gE">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://youtu.be/Pa48svUn1gE"
+                >
                   Commenting
                 </a>{" "}
                 - Another list of problems resolved with a simple feature. I had

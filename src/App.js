@@ -30,7 +30,7 @@ export default function App() {
         <main className="main main-text">
           <section className="hero">
             <div>
-              <h1>Product Designer & Educator</h1>
+              <h1>Product Designer</h1>
               <p>
                 I have been designing for a decade, with a focus on prototyping
                 for mission- and life-critical applications.
@@ -69,7 +69,7 @@ export default function App() {
                 specifications. I don't believe that app behavior follows layout
                 and visual polish. I experiment early with behavior and
                 navigation and refine from there. I find coding so helpful that
-                I have begun teaching it at the graduate level.
+                I have begun teaching it to designers at the graduate level.
               </p>
             </div>
             <div>

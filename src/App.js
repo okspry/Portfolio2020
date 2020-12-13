@@ -300,11 +300,7 @@ export default function App() {
               <h2>Other Work</h2>
               <br />
               <div>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.dropbox.com/s/bht5x7ov42jl0v1/Med%20Rec%20Paper.pdf?dl=0"
-                >
+                <a href="https://www.dropbox.com/s/bht5x7ov42jl0v1/Med%20Rec%20Paper.pdf?dl=0">
                   Medication Reconciliation
                 </a>{" "}
                 - From transitions of care to concerns about patient adherence
@@ -314,27 +310,15 @@ export default function App() {
               </div>
               <br />
               <div>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://youtu.be/6rN327W7nKc"
-                >
-                  Presentation Compiler
-                </a>{" "}
+                <a href="https://youtu.be/6rN327W7nKc">Presentation Compiler</a>{" "}
                 - How to organize assets for presentation in a dynamic,
                 collaborative space.
               </div>
               <br />
               <div>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://youtu.be/Pa48svUn1gE"
-                >
-                  Commenting
-                </a>{" "}
-                - Another list of problems resolved with a simple feature. I had
-                the pleasure of mentoring a brilliant intern for this project.
+                <a href="https://youtu.be/Pa48svUn1gE">Commenting</a> - Another
+                list of problems resolved with a simple feature. I had the
+                pleasure of mentoring a brilliant intern for this project.
               </div>
             </div>
           </section>

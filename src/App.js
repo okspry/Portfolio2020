@@ -43,8 +43,7 @@ export default function App() {
               <h4>Strategy</h4>
               <p>
                 A strategy is only worth the tactics you're willing to employ to
-                accomplish your goal. You can't take over the world by giving
-                everyone a candy bar. That's why it's important for me to first
+                accomplish your goal. That's why it's important for me to first
                 dig deep into the business's and customers' needs: What the
                 strategy entails is at least as important as the strategy
                 itself.
@@ -55,11 +54,10 @@ export default function App() {
               <p>
                 Your needs &rarr; my process. There is a basic process inherent
                 to design: Research and understand, sketch, downselect, refine,
-                repeat. But that process will only get you as far as not putting
-                the sausage casing into the meat. The reality of process beyond
-                the book definition is highly contextual. It is my job to adapt
-                to your environment and needs, not the other way around. Let's
-                talk.
+                repeat. But that process will only get you so far. The reality
+                of process beyond the book definition is highly contextual. It
+                is my job to adapt to your environment and needs, not the other
+                way around. Let's talk.
               </p>
             </div>
             <div>
@@ -77,12 +75,11 @@ export default function App() {
             <div>
               <h4>Understanding</h4>
               <p>
-                What makes one sausage better than another isn't the quality of
-                the process but the ingredients that go into it. The proverbial
-                devil is in the details. I constantly push myself to learn, not
-                just about design, but about everything. Flashes of insight can
-                come without warning, but they only come when you have open ears
-                and eyes and a network of knowledge and people to draw from.
+                The proverbial devil is in the details. I constantly push myself
+                to learn, not just about design, but about everything. Flashes
+                of insight can come without warning, but they only come when you
+                have open ears and eyes and a network of knowledge and people to
+                draw from.
               </p>
             </div>
           </section>

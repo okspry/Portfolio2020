@@ -44,7 +44,7 @@ export default function App() {
               <p>
                 A strategy is only worth the tactics you're willing to employ to
                 accomplish your goal. That's why it's important for me to first
-                dig deep into the business's and customers' needs: What the
+                dig deep into the business's and customers' needs. What the
                 strategy entails is at least as important as the strategy
                 itself.
               </p>

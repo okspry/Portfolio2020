@@ -57,8 +57,9 @@ export default function App() {
                 to design: Research and understand, sketch, downselect, refine,
                 repeat. But that process will only get you as far as not putting
                 the sausage casing into the meat. The reality of process beyond
-                the book definition is highly contextual. It is my job to your
-                environment and needs, not the other way around. Let's talk.
+                the book definition is highly contextual. It is my job to adapt
+                to your environment and needs, not the other way around. Let's
+                talk.
               </p>
             </div>
             <div>

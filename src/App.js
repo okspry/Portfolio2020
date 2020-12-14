@@ -227,7 +227,37 @@ export default function App() {
               </div>
             </div>
             <div className="section col">
-              <h4>Combating Alert Fatigue</h4>
+              <h4>Case Study: Combating Alert Fatigue</h4>
+              <div>
+                <br />
+                <h5>Background</h5>
+                <p>
+                  When drugs ordered conflict with a patient's allergies or
+                  current drugs, alerts are triggered to warn providers of
+                  potentially adverse effects. Unfortunately for providers, many
+                  alerts are irrelevant, but even the ones that are relevant are
+                  so disruptive to workflow that they, too, add to providers'
+                  frustrations, so much so that alerts are often regarded as a
+                  nuissance. It's such a problem, we've created a name for it:
+                  alert fatigue.
+                </p>
+                <br />
+                <h5>Approach</h5>
+                <p>
+                  Our approach to mitigating alert fatigue is to make alerts in
+                  order entry systems behave more like the alerts we see every
+                  day. Which is best, an alert that tells you a surface is hot
+                  1) after you touch it, 2) when your hand is less than five
+                  inches from the hot surface, or 3) from up to two yards away?
+                  We can agree that the closer we are to the action, the harder
+                  it is to make corrections. The intensity of the alert must
+                  rise as we close the distance to the action. That is, we need
+                  a loud buzzer for less than five inches away, and a pulsing
+                  light from two yards away. We can also agree that loud buzzers
+                  are more annoying than pulsing lights. Friendly alerts are
+                  preemptive alerts.
+                </p>
+              </div>
               <div>
                 <figure>
                   <img
@@ -238,29 +268,6 @@ export default function App() {
                   ></img>
                   <figcaption>Alert Fatigue</figcaption>
                 </figure>
-              </div>
-              <div>
-                <p>
-                  When drugs ordered conflict with a patient's allergies or
-                  current drugs, alerts are triggered to warn providers of
-                  potentially adverse effects. Unfortunately for providers, many
-                  alerts are irrelevant, but even the ones that are relevant are
-                  so disruptive to workflow that they, too, add to providers'
-                  frustrations, so much so that alerts are often regarded as a
-                  nuissance. It's such a problem, we've created a name for it:
-                  alert fatigue. Our approach to mitigating alert fatigue is to
-                  make alerts in order entry systems behave more like the alerts
-                  we see every day. Which is best, an alert that tells you a
-                  surface is hot 1) after you touch it, 2) when your hand is
-                  less than five inches from the hot surface, or 3) from up to
-                  two yards away? We can agree that the closer we are to the
-                  action, the harder it is to make corrections. The intensity of
-                  the alert must rise as we close the distance to the action.
-                  That is, we need a loud buzzer for less than five inches away,
-                  and a pulsing light from two yards away. We can also agree
-                  that loud buzzers are more annoying than pulsing lights.
-                  Friendly alerts are preemptive alerts.
-                </p>
               </div>
             </div>
             <div>
@@ -276,17 +283,33 @@ export default function App() {
             </div>
             <div>
               <div>
+                <h5>Testing</h5>
+                <p>
+                  We took a limited budget of $5,000 to design and build an
+                  initial version to test. We tested with hospitalists,
+                  emergency providers, and primary care providers, all of whom
+                  noticed the preemptive alerts and appreciated their presence.
+                  We received some feedback to include these alerts in other
+                  places in the system and to add more contextual information so
+                  that they had more information up front regarding the
+                  relevancy of the alert. More data needed to be collected as to
+                  the efficacy of the alerts and whether they reduced the number
+                  of alerts fired and user frustration with the system, but
+                  initial results were promising.
+                </p>
+                <br />
+                <h5>Results</h5>
                 <p>
                   By presenting alerts earlier in the process of ordering, we
-                  allow providers easier access to backing out and selecting
-                  something else. We also warn them that selecting this
-                  medication will trigger the GUI equivalent of a loud buzzer.
+                  allowed providers easier access to backing out and selecting
+                  something else. We also warned them that selecting this
+                  medication would trigger the GUI equivalent of a loud buzzer.
                   By knowing which drugs will cause buzzers and by allowing
-                  easier access to alternate paths, alert fatigue can be
-                  mitigated on two fronts. By caching the results on patient
-                  select, we don't compromise performace at drug lookup. With
-                  preemptive alerts, we can save clicks, mistakes, and slips,
-                  all while making providers a little less frustrated with the
+                  easier access to alternate paths, alert fatigue was mitigated
+                  on two fronts. By caching the results on patient select, we
+                  didn't compromise performace at drug lookup. Preemptive alerts
+                  saved clicks and highlighted mistakes and slips in a friendly
+                  manner, making providers a little less frustrated with the
                   system, in turn making order entry safer for patients.
                 </p>
               </div>

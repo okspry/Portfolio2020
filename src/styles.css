@@ -194,13 +194,6 @@ section.topics div {
   width: 800px;
   height: 300px;
 }
-.image:nth-of-type(4) {
-  right: 0%;
-  top: 65%;
-  width: 700px;
-  height: 300px;
-  z-index: 0;
-}
 .image:nth-of-type(2) {
   left: 0;
   top: 15%;

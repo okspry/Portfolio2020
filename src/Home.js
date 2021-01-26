@@ -291,10 +291,10 @@ export function Home() {
 								visit, and can lead to more productive
 								conversations about care.
 							</p>
-							<br />
+							{/* <br />
 							<Link to="/problemlist">
 								Designing the Patient Problem List
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 				</div>

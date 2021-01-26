@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import storyboard from "./assets/preemptive-alerts-storyboard.png";
 import mockup1 from "./assets/alert-fatigue-mockup-1.png";
 

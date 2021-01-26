@@ -93,7 +93,6 @@ export function Home() {
 							<a
 								style={{ color: "hsl(181, 100%, 20%)" }}
 								href="https://www.youtube.com/watch?v=y22LdpXIRbc&feature=youtu.be"
-								target="_blank"
 							>
 								YouTube
 							</a>
@@ -119,7 +118,6 @@ export function Home() {
 							<a
 								style={{ color: "hsl(181, 100%, 20%)" }}
 								href="https://www.youtube.com/watch?v=W6snoynIRiA&feature=youtu.be"
-								target="_blank"
 							>
 								YouTube
 							</a>

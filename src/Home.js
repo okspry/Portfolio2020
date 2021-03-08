@@ -71,8 +71,27 @@ export function Home() {
 				</div>
 				<div className="stacked">
 					<h4>Live Auction Software</h4>
+					<p>
+						Here, we created a donation bar that tracks the group's
+						progress towards their goal and updates with another
+						attainable goal to keep contributors engaged. We also
+						optimized the donating process for donations under $100.
+						In addition, we added how much the logged in user has
+						contributed to both ease their fears of miscounting and
+						thank them for being supportive. We also added floating
+						hearts to the donation button for a little extra thanks
+						to our contributors. The chat stream, once not lively,
+						sprung to life when we included other users'
+						contributions to the feed. This increased engagement as
+						our users conquered their goals.
+						<br />
+						<i>
+							(All product and UI decisions and prototypes were
+							created by me.)
+						</i>
+					</p>
 					<br />
-					<h5>Starting Point</h5>
+					{/* <h5>Starting Point</h5>
 					<figure>
 						<div>
 							<iframe
@@ -99,7 +118,7 @@ export function Home() {
 							.
 						</figcaption>
 					</figure>
-					<h5>Redesign</h5>
+					<h5>Redesign</h5> */}
 					<figure>
 						<div>
 							<iframe

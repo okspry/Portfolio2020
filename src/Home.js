@@ -270,7 +270,7 @@ export function Home() {
 							</figure>
 						</div>
 						<br />
-						<h5>Background</h5>
+						{/* <h5>Background</h5> */}
 						<div>
 							<p>
 								Providers don't have much time to review each
